@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+/* position: absolute; */
+    background-image: url(Assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+
+@font-face {
+    font-family: myfont;
+    src: url(Assets/CuteDino.ttf);
+}
+
+.flip-box-container {
+    /* font-family: "Roboto", sans-serif; */
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.flip-box-container h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #111;
+    padding: 30px;
+    font-family: 'myfont';
+    font-size: 40px;
+    border-bottom: 1px solid #eee;
+    letter-spacing: 3px;
+}
+
+.flip-boxes {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flip-box .front {
+    background: #222;
+    z-index: 10;
+}
+
+.flip-box {
+    width: 200px;
+    position: relative;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.flip-box .front,
+.flip-box .back {
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    transition: all 1s cubic-bezier(0.3, 1.13, 0.79, 1.24);
+}
+
+.flip-box .profile-image {
+    height: 180px;
+}
+
+.flip-box .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.flip-box .front .description {
+    padding: 16px;
+    text-align: center;
+    color: #eee;
+    font-weight: bold;
+    box-shadow: 0 -8px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'myfont';
+    letter-spacing: 2px;
+}
+
+.flip-box .back {
+    z-index: -1;
+    background: #222;
+    height: 231px;
+    transform: rotateY(-180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-box .back h3 {
+    color: #eee;
+    margin-bottom: 15px;
+    font-family: 'myfont';
+    letter-spacing: 3px;
+
+}
+
+.flip-box .back .social-icons a {
+    margin: 0 8px;
+}
+
+/* Hover */
+
+.flip-box:hover .back {
+    transform: rotateY(0deg);
+    z-index: 10;
+}
+
+.flip-box:hover .front {
+    transform: rotateY(180deg);
+    z-index: -1;
+}
+
+
+
+
+.popup-container {
+    position: fixed;
+    bottom: 20px; /* adjust as needed */
+    right: 20px; /* adjust as needed */
+    height: 50px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow:rgb(145, 144, 144) 4px 12px 12px;
+
+
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.popup{
+    display: flex;
+    align-items: center;
+}
+.popup img{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.popup h3{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: medium;
+}
+
+
+#openimg{
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+#openimg:hover{
+    opacity: 1;
+}
+
+
+.close-icon {
+    font-weight: 700;
+    opacity: 0.5;
+    position: absolute;
+    top: -14px;
+    left: -4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.close-icon:hover{
+    opacity: 1;
+}
