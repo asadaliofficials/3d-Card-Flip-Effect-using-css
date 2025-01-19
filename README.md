@@ -1,7 +1,7 @@
 # 3d-Card Flip Effect | My Team Card Design with animation:
 ### <pre> Give a Star Please...⭐⭐⭐</pre>
 - Live Preview: ➡️ [Click to Open](https://asadaliofficials.github.io/3d-Card-Flip-Effect-using-css/)
-- Youtube Tutorial: ➡️ [Click to Open](https://www.youtube.com/@luckydevelopers/videos)
+- Youtube Tutorial: ➡️ [Click to Open](https://youtu.be/1XqK8klT43E?si=gIamfo21BNqnC6mZ)
 
 ## Screenshots of this Project
 ![Test Image 4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXldttLIpHAB3EOD7BT77xxqXqPG1LjCfJrt0cfVXejgaT718vbEr4_n29mzvzEj1rSbpP7COaiZsyvgOFYtGsWA0szQLD6-i_ETehketci8MnGM7ToqWQKI_TVMLb-QPcraImtQ64BROvVA1RNz7bsw6nZt5-Mg0CTBesh8Tvb9xUAEDdq8AOBHSEUWEv/w640-h394/Screenshot%202024-06-22%20150014.png)
@@ -12,11 +12,9 @@ We'd love to hear from you! You can connect with us on social media or
 via email- Stay updated with the latest news, updates, and releases by
 subscribing to our newsletter:
 
-- Email: [ luckydevelopersteam@gmail.com ]
-- YouTube: [Lucky Developers](https://www.youtube.com/@luckydevelopers)
-- Website: [Lucky Developers](https://lucky-developers.blogspot.com)
-- Facebook: [Lucky Developers Page](https://www.facebook.com/people/Lucky-Developers/61552231797004)
-- LinkedIn: [Asad Ali](https://www.linkedin.com/in/asadalijatt)
+- Email: [ message.asadali@gmail.com ]
+- YouTube: [Asad Ali](https://www.youtube.com/@asadali_officials)
+- Website: [Lucky Developers](https://asadalicodes.blogspot.com/)
 - GitHub: [Asad Ali](https://github.com/asadaliofficials)
 - Instagram: [Asad Ali]
 
